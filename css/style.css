@@ -1,0 +1,21 @@
+body{
+    background-color: lightseagreen;
+    color: yellow;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid yellow;
+    text-align: center;
+    line-height: 500px;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+}
+span{
+    padding: 0.2em;
+}
